@@ -1,0 +1,7 @@
+# Written by Claude Code at every load: the API's types for this build
+.claude-plugin/types/
+.DS_Store
+node_modules/
+
+# Pages the demo screenshots are taken of
+docs/demo/out/

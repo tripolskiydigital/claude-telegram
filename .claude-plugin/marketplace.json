@@ -1,0 +1,33 @@
+{
+  "name": "claude-telegram",
+  "owner": {
+    "name": "tripolskiydigital",
+    "url": "https://github.com/tripolskiydigital"
+  },
+  "metadata": {
+    "description": "A project's Telegram group in Claude Desktop's Code tab",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "tg-bridge",
+      "source": "./",
+      "description": "A pane in Claude Desktop's Code tab with the Telegram group linked to the project, through a bot of your own: puts the group's messages, pictures and files into the prompt and sends Claude's replies to the group formatted. Calls api.telegram.org with the bot token pasted in the pane; downloads pictures and files with curl into ~/.claude/tg-bridge/files; runs git to find a worktree's project and grep for the desktop's language.",
+      "version": "0.1.0",
+      "author": {
+        "name": "tripolskiydigital"
+      },
+      "homepage": "https://github.com/tripolskiydigital/claude-telegram",
+      "license": "Apache-2.0",
+      "keywords": [
+        "telegram",
+        "chat",
+        "bot",
+        "claude-desktop",
+        "productivity"
+      ],
+      "category": "productivity",
+      "displayName": "Claude Telegram"
+    }
+  ]
+}
